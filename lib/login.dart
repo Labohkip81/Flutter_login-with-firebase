@@ -22,6 +22,7 @@ class _LoginPageState extends State<LoginPage> {
         padding: EdgeInsets.all(16.0),
         child: Form(
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               TextFormField(
                 decoration: InputDecoration(labelText: "email"),
@@ -30,9 +31,16 @@ class _LoginPageState extends State<LoginPage> {
 
               TextFormField(
                 decoration: InputDecoration(labelText: "Password"),
+                //hides text
                 obscureText: true,
               ),
-
+             RaisedButton( 
+               child: Text("Log in", style:TextStyle(fontSize: 20.0,color:Colors.white)),
+               color: Colors.blueAccent,
+               onPressed: (){
+                 //implements what happens when the log in button is clicked
+               },
+             ),
 
 
             ],
