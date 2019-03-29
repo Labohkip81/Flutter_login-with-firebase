@@ -1,2 +1,16 @@
-# Flutter_login-with-firebase
-This app elaborates on how to make use of flutter and firebase to create an login page with authentication. This is meant for learners. The code is well documented for ease of use
+# flutter_login
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+
+For help getting started with Flutter, view our 
+[online documentation](https://flutter.io/docs), which offers tutorials, 
+samples, guidance on mobile development, and a full API reference.
